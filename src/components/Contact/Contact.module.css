@@ -1,0 +1,74 @@
+/* contact me styles */
+.contactContainer{
+  margin-top: 25px;
+  margin-bottom: 30px;
+  min-height: 400px;
+  padding: 0.5rem;
+  border-radius: var(--border-radius);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.actionCall{
+  padding: 0.3rem;
+  border-radius: var(--border-radius);
+  font-size: 1.3rem;
+  color: royalblue;
+  font-weight: 500;
+}
+.title{
+  font-size: 1.5rem;
+  margin: 15px 0;
+  font-weight: 500;
+}
+.subTitle{
+  font-size: 1.2rem;
+}
+.contactFormContainer{
+  background: var(--background-color);
+  padding: 0.8rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+.header{
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  font-weight: 300;
+}
+.formControl{
+  width: 100%;
+  margin-bottom: 10px;
+}
+.formInput{
+  margin-top: 5px;
+  width: 100%;
+  padding: 0.5rem;
+  outline: none;
+  border: 1px solid var(--border-color);
+  background: transparent;
+  border-radius: var(--border-radius);
+  font-size: 16px;
+}
+.formInput:focus{
+  border: 1.5px solid royalblue;
+}
+.sendMail{
+  background: royalblue;
+  padding: 0.5rem;
+  margin-top: 5px;
+  cursor: pointer;
+  border-radius: var(--border-radius);
+  border: transparent;
+  outline: transparent;
+  font-size: 1.05rem;
+}
+.mailIcon{
+  margin-left: 5px;
+}
+
+@media screen  and (max-width: 909px) {
+    .contactContainer{
+        display: flex;
+        flex-direction: column;
+    }
+}

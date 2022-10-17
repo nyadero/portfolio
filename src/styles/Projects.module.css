@@ -1,0 +1,24 @@
+.container{
+   padding: 1rem 10vw;
+    background: var(--background-color-light);
+    min-height: 100vh;
+}
+.title{
+   text-align: center;
+   font-size: 1.1rem;
+   margin-bottom: 20px;
+}
+.menuContainer{
+    margin-bottom: 20px;
+}
+.projectsListContainer{
+    margin: 15px 0;
+}
+
+
+@media screen and (max-width: 909px) {
+    .container{
+        width: 100%;
+        padding: 0.8rem;
+    }
+}

@@ -1,0 +1,18 @@
+.categoriesContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.categoryBtn{
+    background: royalblue;
+    padding: 0.25rem 0.7rem;
+    cursor: pointer;
+    font-size: 1rem;
+    text-transform: capitalize;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    border: none;
+    outline: none;
+}

@@ -1,0 +1,31 @@
+.layout{
+    background: var(--background-color);
+    width: 100%;
+    position: relative;
+}
+.container{
+    /* width: 80vw; */
+    margin: 0 auto;
+    max-width: 1400px;
+}
+.navContainer{
+    background: var(--nav-background);
+    position: sticky;
+    width: 100%;
+    z-index: 10;
+    top: 0;
+ }
+.main{
+    min-height: 100vh; 
+}
+.footerContainer{
+    background: var(--nav-background);
+    width: 100%;
+}
+
+
+@media screen and (max-width: 909px) {
+    .container{
+        width: 100%;
+    }
+}

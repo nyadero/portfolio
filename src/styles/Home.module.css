@@ -1,0 +1,186 @@
+.hero{
+  min-height: 400px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem 20vw;
+  background: var(--background-color-light);
+}
+.socialLinks{
+  padding: .2rem;
+  border-radius: 0px 6px 6px 0px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.iconContainer{
+  height: 50px;
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem;
+}
+.icon{
+  font-size: 1.5rem;
+}
+.cont{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.introTitle{
+  text-align: center;
+  margin: 10px 0;
+  font-weight: 500;
+}
+.introTitle> span{
+  color: royalblue;
+}
+.introSubtitle{
+  text-align: center;
+}
+.section{
+  width: 80vw;
+  margin: 0 auto;
+}
+
+/* my services section */
+.services{
+  min-height: 300px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  place-items: center;
+  justify-items: center;
+  margin: 20px 0;
+}
+.service{
+   height: 200px;
+   background: var(--background-color-light);
+   padding: 0.5rem;
+   border-radius: var(--border-radius);
+   box-shadow: var(--box-shadow);
+}
+.header{
+  height: fit-content;
+  padding: 1rem;
+   border-top-right-radius: 50px;
+   border-bottom-right-radius: 50px;
+   display: flex;
+   justify-self: flex-start;
+   font-weight: 500;
+  }
+.serviceTitle{
+  text-align: center;
+  margin: 6px 0;
+  font-size: 1.1rem;
+  font-weight: normal;
+}
+.service > p{
+  text-align: center;
+}
+/* my skills and tools styles */
+.skills{
+  width: 100%;
+  margin-top: 25px;
+  min-height: 200px;
+  padding: 0.5rem;
+}
+.skillsTitle{
+  text-align: center;
+  color: var(--color);
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+.skillsContainer{
+  min-height: 100px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.skillIcon{
+  font-size: 3rem;
+}
+/* about me */
+.aboutMe{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 20px;
+  min-height: 320px;
+}
+.imgContainer{
+   height: 200px;
+}
+.image{
+  border-radius: var(--border-radius);
+}
+
+/* work experience styles */
+.experienceContainer{
+  margin-top: 25px;
+  min-height: 400px;
+  padding: .5rem;
+}
+
+/* projects styles */
+.projectsContainer{
+  margin-top: 25px;
+  min-height: 400px;
+  background: var(--background-color-light);
+  padding: 1.5rem 10vw;
+}
+.projectsTitle{
+  font-size: 1.5rem;
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* background: royalblue; */
+  margin-bottom: 20px;
+}
+.seeAll{
+  background: royalblue;
+  padding: 0.3rem 0.7rem;
+  cursor: pointer;
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+   border: none;
+  outline: none;
+}
+.projectsSubtitle{
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+}
+/* contacts container */
+.contactsContainer{
+  padding: 1rem 10vw;
+  background: var(--background-color-light);
+}
+@media screen and (max-width: 909px) {
+  .hero{
+    padding: .8rem 5vw;
+  }
+  .section{
+    width: 100%;
+  }
+  .contactsContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 0.8rem;
+  }
+  .services{
+    padding: 0.8rem;
+  }
+  .projectsContainer{
+    padding: 0.8rem;
+  }
+}

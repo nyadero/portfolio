@@ -1,0 +1,54 @@
+.footer{
+    width: 80vw;
+    padding: 0.5rem 0;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.footerContainer{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.socialLinks{
+    display: flex;
+    align-items: center;
+}
+.iconContainer{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+.icon{
+    font-size: 1.3rem;
+}
+.copyright{
+    text-align: center;
+    color: royalblue;
+    /* background: chartreuse; */
+}
+.love{
+    color: tomato;
+}
+.endNote{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+/* media responsive */
+@media screen and (max-width: 909px) {
+    .footer{
+        width: 95vw;
+    }
+    .footerContainer{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-grow: 1;
+    }
+    
+}
