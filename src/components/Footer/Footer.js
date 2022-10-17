@@ -8,10 +8,10 @@ export default function Footer() {
     <footer className={styles.footer}>
 
       <div className={styles.footerContainer}>
-       <div className={styles.socialLinks}>
+          <div className={styles.socialLinks}>
             {/* github link */}
             <div className={styles.iconContainer}>
-              <a href="https://www.github.com/nyadero10" target="_blank" rel="noreferrer">
+              <a href="https://www.github.com/nyadero" target="_blank" rel="noreferrer">
                 {/* <FaGithub className={styles.icon} /> */}
                 <img src="/github-icon.svg" width="100%" alt="" className={styles.icon} />
               </a>
@@ -19,7 +19,7 @@ export default function Footer() {
 
             {/* linkedin link */}
             <div className={styles.iconContainer}>
-              <a href="linkedin.com">
+              <a href="https://www.linkedin.com/in/nyadero-brian" target="_blank" rel="noreferrer" >
                 {/* <FaLinkedin className={styles.icon} /> */}
                 <img src="/linkedin-app-icon.svg" width="100%" alt="" className={styles.icon} />
               </a>
@@ -27,7 +27,7 @@ export default function Footer() {
 
             {/* twitter link */}
             <div className={styles.iconContainer}>
-              <a href="twitter.com">
+              <a href="https://twitter.com/Nyadero010" target="_blank" rel="noreferrer">
                 {/* <FaTwitter className={styles.icon} /> */}
                 <img src="/twitter-color-icon.svg" width="100%" alt="" className={styles.icon} />
               </a>
@@ -35,7 +35,7 @@ export default function Footer() {
 
             {/* instagram */}
             <div className={styles.iconContainer}>
-              <a href="instagram.com">
+              <a href="https://www.instagram.com/steve.odhiambo.986/" target="_blank" rel="noreferrer" >
                 {/* <FaInstagram className={styles.icon} /> */}
                 <img src="/instagram-icon.svg" width="100%" alt="" className={styles.icon} />
               </a>
