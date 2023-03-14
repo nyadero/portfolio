@@ -1,6 +1,6 @@
 .container{
    padding: 1rem 10vw;
-    background: var(--background-color-light);
+    /* background: var(--background-color-light); */
     min-height: 100vh;
 }
 .title{
