@@ -11,7 +11,16 @@ const projects = [
     heroimage: "/taskbuddy1.png",
     demolink: "https://taskbuddy.netlify.app/",
   },
-  
+  {
+    id: 2,
+    name: "Countries of the world",
+    type: "web",
+    languages: ["reactjs", "axios", "REST cOUNTRIES aPI"],
+    description: "This is a simple react website that fetches contries from the countries rest api and displays them. It uses axios to fetch the data",
+    images: ["/taskbuddy1.png", "/taskbuddy2.png", "/taskbuddy3.png", "/taskbuddy4.png", "/taskbuddy5.png", "/taskbuddy6.png"],
+    heroimage: "/worldcountries.png",
+    demolink: "https://worlcountries.netlify.app/",
+  },
 ]
 
 export default projects;

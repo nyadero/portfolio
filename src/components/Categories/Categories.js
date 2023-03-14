@@ -6,6 +6,7 @@ export default function Categories({categories, filterProjects}) {
   const click =() => {
     alert("clicked me")
   }
+  
   return (
     <div className={styles.categoriesContainer}>
         {categories.map(category => {
