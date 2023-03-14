@@ -6,7 +6,7 @@
   flex-direction: column;
   justify-content: center;
   padding: 1rem 20vw;
-  background: var(--background-color-light);
+  /* background: var(--background-color-light); */
 }
 .socialLinks{
   padding: .2rem;
@@ -140,7 +140,7 @@
 .projectsContainer{
   margin-top: 25px;
   min-height: 400px;
-  background: var(--background-color-light);
+  /* background: var(--background-color-light); */
   padding: 1.5rem 10vw;
 }
 .projectsTitle{
@@ -169,7 +169,7 @@
 /* contacts container */
 .contactsContainer{
   padding: 1rem 10vw;
-  background: var(--background-color-light);
+  /* background: var(--background-color-light); */
 }
 @media screen and (max-width: 909px) {
   .hero{
